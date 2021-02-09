@@ -23,7 +23,7 @@ def daily_stats(time_series):
             days.append(day)
             end_this_day = end_this_day + 86400
             day=[]
-            
+            day.append(ora[1])
     #dichiaro la lista statistiche
     stats=[]
     #calcolo le statistiche di ogni singolo giorno
